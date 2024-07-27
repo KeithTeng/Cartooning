@@ -43,7 +43,7 @@ class Cartoonizer:
   
 tmp_canvas = Cartoonizer() 
   
-file_name = "Screenshot.png" 
+file_name = "tree.jpeg" 
 res = tmp_canvas.render(file_name) 
   
 cv2.imwrite("Cartoon version.jpg", res) 
